@@ -25,7 +25,7 @@ int main() {
     char key[] = "tempkey";                
 
     printf("Encypted Text : %s\n", message);
-    vigenereDecrypt(ciphertext, key);
+    vigenereDecrypt(message, key);
     printf("Deciphered : %s\n", message);
 
     return 0;
